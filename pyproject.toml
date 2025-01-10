@@ -1,0 +1,22 @@
+[project]
+name = "spin-shot-sandbox"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yeonikjo",email = "whdusdlr2015@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "jupyter (>=1.1.1,<2.0.0)",
+    "pyqt6 (>=6.8.0,<7.0.0)",
+    "pillow (>=11.1.0,<12.0.0)"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pyqt6rc = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
