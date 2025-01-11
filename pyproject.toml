@@ -34,10 +34,6 @@ allow_zero_version = true
 repo_dir = "/Users/yeonikjo/Documents/Workspace/spin-shot-sandbox"
 no_git_verify = false
 tag_format = "v{version}"
-version_variable = "your_module/__init__.py:__version__"
-upload_to_pypi = true
-branch = "master"
-changelog_file = "CHANGELOG.md"
 
 [tool.semantic_release.branches.main]
 match = "(main|master)"
