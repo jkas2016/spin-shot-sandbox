@@ -8,3 +8,17 @@
 ## Learn play ground
 
 [learn-spin-shot.ipynb](learn-spin-shot.ipynb)
+
+## Build
+
+```bash
+# macOS에서 실행 파일 빌드
+pyinstaller --onefile --windowed \
+    --icon=icon.icns \
+    src/spinshots_app.py
+
+# Windows에서 실행 파일 빌드
+pyinstaller --onefile --windowed \
+    --icon=icon.ico \
+    src/spinshots_app.py
+```
