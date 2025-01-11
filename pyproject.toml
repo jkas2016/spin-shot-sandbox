@@ -17,9 +17,6 @@ dependencies = [
 python = ">=3.11,<3.13"
 pyqt6rc = "^0.7.0"
 
-[tool.poetry.group.dev.dependencies]
-python-semantic-release = "^9.15.2"
-
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
