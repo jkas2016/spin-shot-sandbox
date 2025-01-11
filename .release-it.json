@@ -8,6 +8,10 @@
   "npm": {
     "publish": false
   },
+  "github": {
+    "release": true,
+    "tokenRef": "GH_TOKEN"
+  },
   "plugins": {
     "@release-it/conventional-changelog": {
       "infile": "CHANGELOG.md",
