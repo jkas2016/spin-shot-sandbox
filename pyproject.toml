@@ -37,7 +37,7 @@ tag_format = "v{version}"
 version_variable = "spin_shot_sandbox/__init__.py:__version__"
 upload_to_pypi = true
 branch = "master"
-changelog_file = "CHANGELOG.md"
+upload_to_repository = true
 
 [tool.semantic_release.branches.main]
 match = "(main|master)"
@@ -45,7 +45,6 @@ prerelease_token = "rc"
 prerelease = false
 
 [tool.semantic_release.changelog]
-changelog_file = ""
 exclude_commit_patterns = []
 mode = "init"
 insertion_flag = "<!-- version list -->"
