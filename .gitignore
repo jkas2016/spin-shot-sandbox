@@ -1,5 +1,5 @@
 assets/*
 /.idea
-src/build/*
-src/dist/*
-src/spinshots_app.spec
+build
+dist
+spinshots_app.spec
