@@ -18,3 +18,11 @@ pyinstaller --onefile --windowed --icon=icon.icns src/spinshots_app.py
 # Windows에서 실행 파일 빌드
 pyinstaller --onefile --windowed --icon=icon.ico src/spinshots_app.py
 ```
+
+## Preview
+
+![preview](docs/spinshots_app_0_1_0.gif)
+
+G.O.A.T. (▀̿Ĺ̯▀̿ ̿)
+
+![20250113_162045_3204.gif](docs/20250113_162045_3204.gif)
