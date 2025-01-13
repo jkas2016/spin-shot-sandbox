@@ -5,6 +5,13 @@
 3.	애니메이션 프레임 생성: 여러 각도로 회전된 이미지를 프레임 리스트로 생성합니다.
 4.	GIF 저장: 생성된 프레임 리스트를 이용해 GIF 파일로 저장합니다.
 
+## Download
+
+[LATEST RELEASE](https://github.com/jkas2016/spin-shot-sandbox/releases/tag/v0.1.0)
+
+- MAC: Assets > spinshots_app_mac.zip Click to download
+- Windows: Assets > spinshots_app_win.zip Click to download
+
 ## Learn play ground
 
 [learn-spin-shot.ipynb](learn-spin-shot.ipynb)
